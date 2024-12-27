@@ -1,0 +1,50 @@
+{
+  "appName": "图片文字翻译",
+  "uploadImage": "点击或拖拽上传图片",
+  "dropHere": "松开以上传图片",
+  "dragAndDrop": "支持拖拽上传",
+  "extractText": "提取文字",
+  "translate": "翻译",
+  "improve": "优化翻译",
+  "improveTooltip": "使翻译更加地道自然",
+  "selectLanguage": "选择语言",
+  "extractedText": "提取的文字",
+  "translatedText": "翻译结果",
+  "noTextExtracted": "尚未提取文字",
+  "noTranslation": "尚未翻译",
+  "switchLanguage": "切换语言",
+  "toggleTheme": "切换主题",
+  "languages": {
+    "english": "英文",
+    "chinese": "中文"
+  },
+  "theme": {
+    "light": "浅色",
+    "dark": "深色",
+    "system": "跟随系统"
+  },
+  "error": {
+    "noImage": "未选择图片",
+    "noImageDesc": "请先上传一张图片",
+    "invalidFile": "无效的文件",
+    "invalidFileDesc": "请上传图片文件（JPG、PNG等）",
+    "noText": "无文字内容",
+    "noTextDesc": "请先从图片中提取文字",
+    "noLanguage": "未选择语言",
+    "noLanguageDesc": "请选择目标翻译语言",
+    "noTranslation": "无翻译内容",
+    "noTranslationDesc": "请先翻译文本",
+    "extracting": "提取失败",
+    "extractingDesc": "文字提取过程中出现错误",
+    "translating": "翻译失败",
+    "translatingDesc": "翻译过程中出现错误",
+    "improving": "优化失败",
+    "improvingDesc": "翻译优化过程中出现错误"
+  },
+  "success": {
+    "extracted": "提取成功",
+    "translated": "翻译成功",
+    "improved": "翻译已优化",
+    "description": "操作已完成"
+  }
+} 

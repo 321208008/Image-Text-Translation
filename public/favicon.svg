@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- 简化的图片框和山峰图案 -->
+    <rect x="8" y="10" width="16" height="12" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
+    <path d="M8 17L11 14L16 17L19 14L24 17V20C24 21.1046 23.1046 22 22 22H10C8.89543 22 8 21.1046 8 20V17Z" fill="currentColor"/>
+    
+    <!-- 简化的翻译箭头 -->
+    <path d="M14 7L18 7M16 5L18 7L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M18 25L14 25M16 23L14 25L16 27" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg> 

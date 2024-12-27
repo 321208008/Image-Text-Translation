@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- 图片框图标 -->
+    <rect x="136" y="156" width="240" height="200" rx="20" stroke="currentColor" stroke-width="24" fill="none"/>
+    
+    <!-- 图片中的山峰图案 -->
+    <path d="M136 276L196 216L256 276L316 216L376 276V336C376 347.046 367.046 356 356 356H156C144.954 356 136 347.046 136 336V276Z" fill="currentColor"/>
+    
+    <!-- 翻译箭头 -->
+    <path d="M226 116L286 116M256 96L286 116L256 136" stroke="currentColor" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M286 396L226 396M256 376L226 396L256 416" stroke="currentColor" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- 小圆点装饰 -->
+    <circle cx="376" cy="136" r="12" fill="currentColor"/>
+    <circle cx="136" cy="376" r="12" fill="currentColor"/>
+</svg> 

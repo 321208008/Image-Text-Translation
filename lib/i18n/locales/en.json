@@ -1,0 +1,50 @@
+{
+  "appName": "Image Text Translator",
+  "uploadImage": "Click or drag image to upload",
+  "dropHere": "Drop to upload",
+  "dragAndDrop": "Drag and drop supported",
+  "extractText": "Extract Text",
+  "translate": "Translate",
+  "improve": "Improve",
+  "improveTooltip": "Make translation more natural",
+  "selectLanguage": "Select Language",
+  "extractedText": "Extracted Text",
+  "translatedText": "Translation",
+  "noTextExtracted": "No text extracted yet",
+  "noTranslation": "No translation yet",
+  "switchLanguage": "Switch Language",
+  "toggleTheme": "Toggle theme",
+  "languages": {
+    "english": "English",
+    "chinese": "Chinese"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "error": {
+    "noImage": "No image selected",
+    "noImageDesc": "Please upload an image first",
+    "invalidFile": "Invalid file",
+    "invalidFileDesc": "Please upload an image file (JPG, PNG, etc.)",
+    "noText": "No text content",
+    "noTextDesc": "Please extract text from image first",
+    "noLanguage": "No language selected",
+    "noLanguageDesc": "Please select target language",
+    "noTranslation": "No translation",
+    "noTranslationDesc": "Please translate the text first",
+    "extracting": "Extraction failed",
+    "extractingDesc": "Error occurred during text extraction",
+    "translating": "Translation failed",
+    "translatingDesc": "Error occurred during translation",
+    "improving": "Improvement failed",
+    "improvingDesc": "Error occurred during translation improvement"
+  },
+  "success": {
+    "extracted": "Text extracted",
+    "translated": "Translation completed",
+    "improved": "Translation improved",
+    "description": "Operation completed"
+  }
+} 
