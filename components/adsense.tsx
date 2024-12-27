@@ -1,9 +1,7 @@
 import Script from 'next/script'
 
 export function AdSense() {
-  const clientId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID
-
-  if (!clientId) return null
+  const clientId = 'ca-pub-9535069756501112'
 
   return (
     <Script
