@@ -169,9 +169,9 @@ export default function Home() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto">
-      <Card className="p-6">
-        <div className="grid gap-6">
+    <div className="container mx-auto px-4 py-6">
+      <Card className="p-4 md:p-6">
+        <div className="grid gap-4 md:gap-6">
           <div className="flex items-center justify-center">
             <div 
               className={`relative w-full max-w-md aspect-video border-2 ${isDragging ? 'border-primary' : 'border-dashed'} rounded-lg flex items-center justify-center transition-colors ${isDragging ? 'bg-primary/10' : 'hover:bg-gray-50 dark:hover:bg-gray-900'}`}
@@ -186,8 +186,8 @@ export default function Home() {
                   className="max-h-full max-w-full object-contain"
                 />
               ) : (
-                <div className="text-center p-6">
-                  <ImageIcon className="mx-auto h-12 w-12 text-gray-400" />
+                <div className="text-center p-4 md:p-6">
+                  <ImageIcon className="mx-auto h-8 w-8 md:h-12 md:w-12 text-gray-400" />
                   <p className="mt-2 text-sm text-gray-500">{isDragging ? t('dropHere') : t('uploadImage')}</p>
                   <p className="mt-1 text-xs text-gray-400">{t('dragAndDrop')}</p>
                 </div>
@@ -201,18 +201,18 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex justify-center space-x-4">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-4">
             <Button
               onClick={handleExtractText}
               disabled={!image || isProcessing}
-              className="w-40"
+              className="w-full sm:w-40"
             >
               <Upload className="mr-2 h-4 w-4" />
               {t('extractText')}
             </Button>
 
             <Select onValueChange={setSelectedLanguage}>
-              <SelectTrigger className="w-40">
+              <SelectTrigger className="w-full sm:w-40">
                 <SelectValue placeholder={t('selectLanguage')} />
               </SelectTrigger>
               <SelectContent>
@@ -232,7 +232,7 @@ export default function Home() {
             <Button
               onClick={handleTranslate}
               disabled={!extractedText || !selectedLanguage || isProcessing}
-              className="w-40"
+              className="w-full sm:w-40"
             >
               <Languages className="mr-2 h-4 w-4" />
               {t('translate')}
@@ -245,7 +245,7 @@ export default function Home() {
                     onClick={handleImprove}
                     disabled={!translatedText || isProcessing}
                     variant="outline"
-                    className="w-40"
+                    className="w-full sm:w-40"
                   >
                     <Wand2 className="mr-2 h-4 w-4" />
                     {t('improve')}
